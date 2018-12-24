@@ -1,0 +1,46 @@
+2018-12-24 14:16:52 [scrapy] DEBUG: Crawled (200) <GET http://animeisme.com/robots.txt> (referer: None)
+2018-12-24 14:16:53 [scrapy] DEBUG: Crawled (200) <GET http://animeisme.com> (referer: None)
+2018-12-24 14:16:56 [scrapy] DEBUG: Crawled (200) <GET http://animeisme.com/nonton-fairy-tail-sub-indo/episode-289> (referer: http://animeisme.com)
+2018-12-24 14:16:56 [scrapy] DEBUG: Crawled (200) <GET http://animeisme.com/nonton-gegege-no-kitaro-sub-indo/episode-37> (referer: http://animeisme.com)
+2018-12-24 14:16:56 [scrapy] DEBUG: Scraped from <200 http://animeisme.com/nonton-fairy-tail-sub-indo/episode-289>
+{'title': 'Fairy Tail Episode 289', 'series': 'Fairy Tail', 'rating': '8.2', 'episode': '289', 'description': 'Nonton Fairy Tail Sub Indo - Lucy, seorang gadis berusia 17 tahun, memulai perjalanan untuk menjadi penyihir penuh dan bergabung dengan serikat terkuat dan paling terkenal di FAIRY TAIL di mana dia bertemu dengan Natsu, Happy, Gray dan Erza, yang memperlakukannya lebih seperti keluarga daripada teman. Seri epik ini membawa kita melalui semua bahaya bahwa anggota wajah peri dan akhirnya diatasi melalui saling cinta dan pertemanan.', 'image': 'https://myanimelist.cdn-dena.com/images/anime/1536/93863.jpg', 'video': 'http://153.92.5.103/server/player/?u=aHR0cDovL2dldC5hbmltZW5pbmUuY29tL2J0dWJlLnBocD9xPUFENnY1ZHpnc2lpMmJ1eWNmRXhmcURES0VmV0MwV1k0R1MwQkNSN3FjZ1J6UV9zUjUzNXdWZ3YwT0NPUk55dHQ5aVZUZ3JOQ0x6Z0Q3anQxUzhBSHZEUUUtdjJyZ0U5bTFGVEdHenJTdzJDTl9TeHlRN2M3SmprQkJQRE1sdVRwdEkyX1ZMdGt6YlE&p=&a=1&i=Ly9hbmltZWlzbWUuY29tL2Fzc2V0cy9pbWFnZXMvaXBsLnBuZw=='}
+2018-12-24 14:16:56 [scrapy] DEBUG: Scraped from <200 http://animeisme.com/nonton-gegege-no-kitaro-sub-indo/episode-37>
+{'title': 'Gegege no Kitaro Episode 37', 'series': 'Gegege no Kitaro', 'rating': '7.04', 'episode': '37', 'description': 'Nonton Gegege no Kitaro Sub Indo - Serial manga yang sangat populer tentang seorang youkai muda (semangat) yang berjuang untuk perdamaian antara dunia manusia dan dunia roh.', 'image': 'http://animeisme.com/assets/images/dp/GegegenoKitaro.jpg', 'video': 'http://153.92.5.103/server/player/?u=aHR0cDovL2dldC5hbmltZW5pbmUuY29tL2J0dWJlLnBocD9xPUFENnY1ZHhkaVB3Q1ZlUk5fUTVUemZ5RG8tYnNNS3lRMGNsRHlOYnhqZXVTeThTc2pIck9IQ1JiUGpJUjJZbEpGYk00WXRRSld0eUJwM1I2X2lBS1B1bjF6Wnd1T0JoTzJDek5kZk5pdVM3T1daNTZacV8yQTNxLURzNjVDcDRQTmZYR0xweGl6djBn&p=&a=1&i=Ly9hbmltZWlzbWUuY29tL2Fzc2V0cy9pbWFnZXMvaXBsLnBuZw=='}
+2018-12-24 14:16:56 [scrapy] DEBUG: Crawled (200) <GET http://animeisme.com/nonton-boruto-naruto-next-generation-sub-indo/episode-87> (referer: http://animeisme.com)
+2018-12-24 14:16:56 [scrapy] DEBUG: Crawled (200) <GET http://animeisme.com/nonton-ssssgridman-sub-indo/episode-12> (referer: http://animeisme.com)
+2018-12-24 14:16:56 [scrapy] DEBUG: Scraped from <200 http://animeisme.com/nonton-boruto-naruto-next-generation-sub-indo/episode-87>
+{'title': 'Boruto: Naruto Next Generation Episode 87', 'series': 'Boruto: Naruto Next Generation', 'rating': '8.1', 'episode': '87', 'description': 'Nonton Boruto: Naruto Next Generation Sub Indo - Naruto adalah seorang shinobi muda dengan bakat yang tak tergoyahkan karena kenakalan. Dia mencapai mimpinya untuk menjadi ninja terhebat di desa dan wajahnya duduk di atas Monumen Hokage. Tapi ini bukan ceritanya. Seorang generasi baru ninja siap untuk naik panggung, dipimpin oleh putra Naruto sendiri, Boruto.', 'image': 'https://myanimelist.cdn-dena.com/images/anime/9/84460.jpg', 'video': 'http://153.92.5.103/server/player/?u=aHR0cDovL2dldC5hbmltZW5pbmUuY29tL2J0dWJlLnBocD9xPUFENnY1ZHgzeFJaa3Z1Wk92d0tyQjhNQzFNYkN0UWVSVlR2R0RCSXd3YzhLc3VRZ004djRYVVVQY0plYl9OUElPVF94YVlHNnJUY0dGUkFnd2NLRHpJTV96R1M5V1hEUzFVWHZEWFVJTlA3d2NtTjQwaGxfdjVUOUw3bkh3YkJ4SXhNQjdUSFZaYm94&p=&a=1&i=Ly9hbmltZWlzbWUuY29tL2Fzc2V0cy9pbWFnZXMvaXBsLnBuZw=='}
+2018-12-24 14:16:56 [scrapy] DEBUG: Scraped from <200 http://animeisme.com/nonton-ssssgridman-sub-indo/episode-12>
+{'title': 'SSSS.Gridman Episode 12', 'series': 'SSSS.Gridman', 'rating': '6.7', 'episode': '12', 'description': 'Nonton SSSS.Gridman Sub Indo - Yuta Hibiki tidak dapat mengingat siapa dia, dan sekarang dia melihat dan mendengar hal-hal yang orang lain tidak! Sebuah suara dari komputer lama memberitahu dia untuk mengingat panggilannya, dan dia melihat makhluk besar, tak bergerak di kejauhan. Tidak ada yang masuk akal — sampai si raksasa naik ke kehidupan! Tiba-tiba, Yuta ditarik ke dunia digital, muncul kembali di dunia nyata sebagai pahlawan kolosal — Gridman!', 'image': 'https://myanimelist.cdn-dena.com/images/anime/1973/95616.jpg', 'video': 'http://153.92.5.103/server/player/?u=aHR0cDovL2dldC5hbmltZW5pbmUuY29tL2J0dWJlLnBocD9xPUFENnY1ZHlHenpkVFE3WjVZNWVwZ2hXalNFWHJNNGo0MG5HeURGb2s0X2VYZV90QzZBX295QjFDN2lGVTJDNWI5aHA2UVlLc2E3SExmcmFheTFKdjlFZEc0NEthc3diLUVyWGRIV0ZVREZfZTh4cEI3R0dQUXo0SDdDVVpsZGJaWlpEelY3dVkxd3M&p=&a=1&i=Ly9hbmltZWlzbWUuY29tL2Fzc2V0cy9pbWFnZXMvaXBsLnBuZw=='}
+2018-12-24 14:16:56 [scrapy] DEBUG: Crawled (200) <GET http://animeisme.com/nonton-release-the-spyce-sub-indo/episode-12> (referer: http://animeisme.com)
+2018-12-24 14:16:56 [scrapy] DEBUG: Crawled (200) <GET http://animeisme.com/nonton-one-piece-sub-indo/episode-866> (referer: http://animeisme.com)
+2018-12-24 14:16:56 [scrapy] DEBUG: Scraped from <200 http://animeisme.com/nonton-release-the-spyce-sub-indo/episode-12>
+{'title': 'Release the Spyce Episode 12', 'series': 'Release the Spyce', 'rating': '7.0', 'episode': '12', 'description': 'Nonton Release the Spyce Sub Indo - Serial ini tentang seorang gadis bernama Momo yang menghadiri sekolah menengah di kota Sorasaki. Namun, dia diam-diam adalah anggota Tsukikage, sebuah agen intelijen yang melindungi orang. Sebagai anggota baru agensi, dia bekerja bersama rekan-rekannya termasuk seniornya Yuki dan teman-temannya. Bersama-sama, mereka bekerja untuk membangun perdamaian di kota.', 'image': 'https://myanimelist.cdn-dena.com/images/anime/1416/91403.jpg', 'video': 'http://153.92.5.103/server/player/?u=aHR0cDovL2dldC5hbmltZW5pbmUuY29tL2J0dWJlLnBocD9xPUFENnY1ZHhDSkp6cDRaOVZkS0x5d0FUTm51NkhJRG5yM1hZdHNQa2d2Q3lnX1hvcUg0ekNJbFhCdW1PWFhyVkhNS1RMTDJDTlR4bW5EQW91dHI1SndwNHRfWi1jdDN5amROM2pGS19CSjctWmV0amV3WWJSU2trQkxRaDJsbEZFc2thZG42VjJndEE&p=&a=1&i=Ly9hbmltZWlzbWUuY29tL2Fzc2V0cy9pbWFnZXMvaXBsLnBuZw=='}
+2018-12-24 14:16:56 [scrapy] DEBUG: Scraped from <200 http://animeisme.com/nonton-one-piece-sub-indo/episode-866>
+{'title': 'One Piece Episode 866', 'series': 'One Piece', 'rating': '8.6', 'episode': '866', 'description': 'Nonton One Piece Sub Indo - Ikuti petualangan Monkey D. Luffy dan teman-temannya untuk menemukan harta karun terbesar yang pernah ditinggalkan oleh Pirate legendaris, Gol D Roger. Harta misterius terkenal bernama "One Piece".', 'image': 'https://cdn.myanimelist.net/images/anime/6/73245.jpg', 'video': 'http://153.92.5.103/server/player/?u=aHR0cDovL2dldC5hbmltZW5pbmUuY29tL2J0dWJlLnBocD9xPUFENnY1ZHlvM29oR2ZjbzFScEFnMnFqZ29fOTYwVFRqMERWaS1VSGVFR1FBQ2lnOG1ESnRXdVpYY2p4YXlNb3JOMFREeklfNjRHeFZSR3R4M3QyQVF6TTlnbDVqY2hGSFRXcmN0TDJnb3FoTW5reV9QRHYzSGgyT0U2R2VRbzVZZ3ZraVEzcmp3NEVr&p=&a=1&i=Ly9hbmltZWlzbWUuY29tL2Fzc2V0cy9pbWFnZXMvaXBsLnBuZw=='}
+2018-12-24 14:16:56 [scrapy] DEBUG: Crawled (200) <GET http://animeisme.com/nonton-bakumatsu-sub-indo/episode-12> (referer: http://animeisme.com)
+2018-12-24 14:16:57 [scrapy] DEBUG: Scraped from <200 http://animeisme.com/nonton-bakumatsu-sub-indo/episode-12>
+{'title': 'Bakumatsu Episode 12', 'series': 'Bakumatsu', 'rating': '5.8', 'episode': '12', 'description': 'Nonton Bakumatsu Sub Indo - Kyoto, Jepang. Pahlawan wanita itu bertemu dengan seorang pria yang memberinya arloji saku entah bagaimana mengarah ke Torii di sebuah kuil, dan tiba-tiba itu melesat ke periode Bakumatsu. Di dunia di mana ada perbedaan dalam pentingnya nilai, ia mencoba menemukan cara untuk kembali. Ketika dia bertemu dengan seorang pria yang telah menyeberang waktu dan berkata, "Aku akan hidup untukmu," kisah cinta antara kedua bunga.', 'image': 'https://myanimelist.cdn-dena.com/images/anime/1764/95110.jpg', 'video': 'http://153.92.5.103/server/player/?u=aHR0cDovL2dldC5hbmltZW5pbmUuY29tL2J0dWJlLnBocD9xPUFENnY1ZHpIWkNhN25GclptU2RBaVRxX0JDZ1FIcVRYSFNPeXZIbTNQMTNRZVlrSy13Zk5kU0V2ZkxZTVI3UTI4Y2JYR2E3aTZBOEdFeVM2U2FERTR0LVFZSXJocDFRX2RoY2l3UmlJTVpfQ2JIRmF4Rk5qQi0yTFV0dzEzbHNjUHhpLTIyWFNWSGcx&p=&a=1&i=Ly9hbmltZWlzbWUuY29tL2Fzc2V0cy9pbWFnZXMvaXBsLnBuZw=='}
+2018-12-24 14:16:57 [scrapy] INFO: Closing spider (finished)
+2018-12-24 14:16:57 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 5660,
+ 'downloader/request_count': 9,
+ 'downloader/request_method_count/GET': 9,
+ 'downloader/response_bytes': 140404,
+ 'downloader/response_count': 9,
+ 'downloader/response_status_count/200': 9,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 12, 24, 7, 16, 57, 51551),
+ 'item_scraped_count': 7,
+ 'log_count/DEBUG': 16,
+ 'log_count/INFO': 6,
+ 'memusage/max': 60932096,
+ 'memusage/startup': 60932096,
+ 'request_depth_max': 1,
+ 'response_received_count': 9,
+ 'scheduler/dequeued': 8,
+ 'scheduler/dequeued/memory': 8,
+ 'scheduler/enqueued': 8,
+ 'scheduler/enqueued/memory': 8,
+ 'start_time': datetime.datetime(2018, 12, 24, 7, 16, 52, 384387)}
+2018-12-24 14:16:57 [scrapy] INFO: Spider closed (finished)
