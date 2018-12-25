@@ -3,6 +3,10 @@ from scrapy import Spider
 from scrapy.http import Request
 
 import re
+import os
+import csv
+import glob
+import MySQLdb
 
 
 class AnimeupdateSpider(Spider):
@@ -43,6 +47,25 @@ class AnimeupdateSpider(Spider):
             "image":image,
             "video":video            
         }
+
+
+    def close(self, reason):
+        csv_file = max(glob.iglob('*.csv'), key=os.path.getctime)
+
+        mydb = MySQLdb.connect(host='localhost', user='root', password='root', db='animeflix', charset='utf8')
+        cursor = mydb.cursor()
+
+        csv_data = csv.reader(open(csv_file))
+
+        row_count = 0
+        for row in csv_data:
+            if row_count != 0:
+                cursor.execute(
+                    'INSERT INTO videos (title, series, rating, category, episode, description, image_url, video_url, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, NOW())', row)
+            row_count += 1
+
+        mydb.commit()
+        cursor.close()
 
 
     def clean_text(self, text):
