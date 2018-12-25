@@ -36,6 +36,7 @@ class AnimeupdateSpider(Spider):
         serial_ab = serial_fix.strip()
         episode_fix = next(re.finditer(r'\d+$', episode)).group(0)
         title_fix = serial_ab + " Episode " + episode_fix 
+        slug = title_fix.replace(" ", "-").lower()
         
         yield {
             "title":title_fix,
@@ -45,14 +46,15 @@ class AnimeupdateSpider(Spider):
             "episode":episode_fix,
             "description":description,
             "image":image,
-            "video":video            
+            "video":video, 
+            "slug":slug            
         }
 
 
     def close(self, reason):
         csv_file = max(glob.iglob('*.csv'), key=os.path.getctime)
 
-        mydb = MySQLdb.connect(host='localhost', user='root', password='root', db='animeflix', charset='utf8')
+        mydb = MySQLdb.connect(host='localhost', user='root', password='toor', db='animeflix', charset='utf8')
         cursor = mydb.cursor()
 
         csv_data = csv.reader(open(csv_file))
@@ -61,12 +63,8 @@ class AnimeupdateSpider(Spider):
         for row in csv_data:
             if row_count != 0:
                 cursor.execute(
-                    'INSERT INTO videos (title, series, rating, category, episode, description, image_url, video_url, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, NOW())', row)
+                    'INSERT INTO videos (title, series, rating, category, episode, description, image_url, video_url, slug, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())', row)
             row_count += 1
-
-        mydb.commit()
-        cursor.close()
-
 
     def clean_text(self, text):
         text = text.replace("Nonton", "")
