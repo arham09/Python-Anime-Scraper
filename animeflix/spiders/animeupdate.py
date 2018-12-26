@@ -63,7 +63,7 @@ class AnimeupdateSpider(Spider):
         for row in csv_data:
             if row_count != 0:
                 cursor.execute(
-                    'INSERT INTO videos (title, series, rating, category, episode, description, image_url, video_url, slug, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())', row)
+                    'INSERT IGNORE INTO videos (title, series, rating, category, episode, description, image_url, video_url, slug, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())', row)
             row_count += 1
 
     def clean_text(self, text):
