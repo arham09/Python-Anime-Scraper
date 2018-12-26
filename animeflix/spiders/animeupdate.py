@@ -37,6 +37,15 @@ class AnimeupdateSpider(Spider):
         episode_fix = next(re.finditer(r'\d+$', episode)).group(0)
         title_fix = serial_ab + " Episode " + episode_fix 
         slug = title_fix.replace(" ", "-").lower()
+
+        mydb = MySQLdb.connect(host='localhost', user='root', password='toor', db='animeflix', charset='utf8')
+        cursor = mydb.cursor()
+
+        cursor.execute(
+                    """INSERT IGNORE INTO videos 
+                    (title, series, rating, category, episode, description, image_url, video_url, slug, created_at) 
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())"""
+                    , title_fix, serial_ab, rating, category, episode_fix, description, image, video, slug)
         
         yield {
             "title":title_fix,
@@ -51,20 +60,20 @@ class AnimeupdateSpider(Spider):
         }
 
 
-    def close(self, reason):
-        csv_file = max(glob.iglob('*.csv'), key=os.path.getctime)
+    # def close(self, reason):
+    #     csv_file = max(glob.iglob('*.csv'), key=os.path.getctime)
 
-        mydb = MySQLdb.connect(host='localhost', user='root', password='toor', db='animeflix', charset='utf8')
-        cursor = mydb.cursor()
+    #     mydb = MySQLdb.connect(host='localhost', user='root', password='toor', db='animeflix', charset='utf8')
+    #     cursor = mydb.cursor()
 
-        csv_data = csv.reader(open(csv_file))
+    #     csv_data = csv.reader(open(csv_file))
 
-        row_count = 0
-        for row in csv_data:
-            if row_count != 0:
-                cursor.execute(
-                    'INSERT IGNORE INTO videos (title, series, rating, category, episode, description, image_url, video_url, slug, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())', row)
-            row_count += 1
+    #     row_count = 0
+    #     for row in csv_data:
+    #         if row_count != 0:
+    #             cursor.execute(
+    #                 'INSERT IGNORE INTO videos (title, series, rating, category, episode, description, image_url, video_url, slug, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())', row)
+    #         row_count += 1
 
     def clean_text(self, text):
         text = text.replace("Nonton", "")
