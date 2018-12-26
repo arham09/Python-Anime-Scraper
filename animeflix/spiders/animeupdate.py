@@ -41,11 +41,13 @@ class AnimeupdateSpider(Spider):
         mydb = MySQLdb.connect(host='localhost', user='root', password='toor', db='animeflix', charset='utf8')
         cursor = mydb.cursor()
 
+        a = [title_fix, serial_ab, rating, category, episode_fix, description, image, video, slug]
+
         cursor.execute(
                     """INSERT IGNORE INTO videos 
                     (title, series, rating, category, episode, description, image_url, video_url, slug, created_at) 
                     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())"""
-                    , title_fix, serial_ab, rating, category, episode_fix, description, image, video, slug)
+                    , a)
         
         yield {
             "title":title_fix,
