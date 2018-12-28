@@ -1,0 +1,72 @@
+{
+  "_from": "ghostdriver",
+  "_id": "ghostdriver@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-RbTMhxMibeuARPs6MkTKhWqAOrU=",
+  "_location": "/ghostdriver",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ghostdriver",
+    "name": "ghostdriver",
+    "escapedName": "ghostdriver",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ghostdriver/-/ghostdriver-2.0.0.tgz",
+  "_shasum": "45b4cc8713226deb8044fb3a3244ca856a803ab5",
+  "_spec": "ghostdriver",
+  "_where": "/home/arham",
+  "author": {
+    "name": "Ivan De Marino"
+  },
+  "bin": {
+    "ghostdriver": "./bin/ghostdriver"
+  },
+  "bugs": {
+    "url": "https://github.com/detro/ghostdriver/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "phantomjs-prebuilt": ">2.1.1"
+  },
+  "deprecated": false,
+  "description": "Ghost Driver is an implementation of the Remote WebDriver Wire protocol, using PhantomJS as back-end.",
+  "files": [
+    "LICENSE.BSD",
+    "README.md",
+    "bin/ghostdriver",
+    "src/"
+  ],
+  "homepage": "https://github.com/detro/ghostdriver#readme",
+  "keywords": [
+    "selenium",
+    "ghostdriver",
+    "phantomjs",
+    "webkit",
+    "headless"
+  ],
+  "license": "BSD-2-Clause",
+  "maintainers": [
+    {
+      "name": "Jason Gowan",
+      "email": "gowanjason@gmail.com",
+      "url": "https://github.com/jesg"
+    }
+  ],
+  "name": "ghostdriver",
+  "optionalDependencies": {
+    "phantomjs-prebuilt": ">2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detro/ghostdriver.git"
+  },
+  "version": "2.0.0"
+}

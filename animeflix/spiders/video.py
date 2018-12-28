@@ -19,7 +19,7 @@ class VideoSpider(scrapy.Spider):
         image = response.xpath('//div[@class="col-md-3"]/img/@src').extract_first()
         
 
-        self.driver = webdriver.PhantomJS('/home/arham/node_modules/ghostdriver/bin/ghostdriver')
+        self.driver = webdriver.PhantomJS('../ghostdriver/bin/ghostdriver')
         self.driver.get(response.url)
         iframe = self.driver.find_element_by_id("mvframe")
         
