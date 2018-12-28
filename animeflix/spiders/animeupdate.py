@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 from scrapy import Spider
 from scrapy.http import Request
+from selenium import webdriver
+from scrapy.selector import Selector
+
 
 import re
 import os
@@ -30,7 +33,17 @@ class AnimeupdateSpider(Spider):
         rating = response.xpath('//table/tr/td/div/strong/text()').extract_first()
         category = response.xpath('//table/tr/td/a/text()').extract_first()
         image = response.xpath('//div[@class="col-md-3"]/img/@src').extract_first()
-        video = response.css('iframe::attr(src)').extract_first()
+
+        self.driver = webdriver.PhantomJS('/home/arham/node_modules/ghostdriver/bin/ghostdriver')
+        self.driver.get(response.url)
+        iframe = self.driver.find_element_by_id("mvframe")
+        
+        self.driver.switch_to.frame(iframe)
+
+        sel = Selector(text=self.driver.page_source)
+        video = sel.xpath('//video/source/@src').extract_first()
+
+        self.driver.close()
 
         serial_fix = self.clean_text(title.strip())
         serial_ab = serial_fix.strip()
