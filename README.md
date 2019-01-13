@@ -4,6 +4,7 @@
 
 1.
 uncomment code from line 68 - 85
+
 Set the Db environment
 
 run the spider : scrapy crawl animeupdate -o anime.csv
