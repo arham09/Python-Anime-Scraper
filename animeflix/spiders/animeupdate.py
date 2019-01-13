@@ -14,15 +14,15 @@ import MySQLdb
 
 class AnimeupdateSpider(Spider):
     name = 'animeupdate'
-    allowed_domains = ['animeisme.com']
-    start_urls = ['http://animeisme.com']
+    allowed_domains = ['animeisme.me/']
+    start_urls = ['https://animeisme.me/']
 
     def parse(self, response):
         link = response.xpath('//section[@class="featured"]/div[@class="grid row"]')[0]
         updates = link.xpath('.//div[@class="col-md-125 col-xs-50 col-sm-3"]/div[@class="grid-item"]/div[@class="mask"]/figure/figcaption/a/@href').extract()
         for update in updates:
             update_url = response.urljoin(update)
-            yield Request(update_url, callback=self.parse_anime)
+            yield Request(update_url, callback=self.parse_anime, dont_filter=True)
 
     
     def parse_anime(self, response):
@@ -65,24 +65,24 @@ class AnimeupdateSpider(Spider):
         }
 
 
-    def close(self, reason):
-        csv_file = max(glob.iglob('*.csv'), key=os.path.getctime)
+    # def close(self, reason):
+    #     csv_file = max(glob.iglob('*.csv'), key=os.path.getctime)
 
-        mydb = MySQLdb.connect(host='animedemy.me', user='root', password='toor', db='db_animeflix', charset='utf8', port=3306)
-        cursor = mydb.cursor()
+    #     mydb = MySQLdb.connect(host='animedemy.me', user='root', password='toor', db='db_animeflix', charset='utf8', port=3306)
+    #     cursor = mydb.cursor()
 
-        csv_data = csv.reader(open(csv_file))
+    #     csv_data = csv.reader(open(csv_file))
 
-        row_count = 0
-        for row in csv_data:
-            if row_count != 0:
-                cursor.execute(
-                    'INSERT IGNORE INTO videos (title, series, rating, category, episode, description, image_url, video_url, slug, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())', row)
-            row_count += 1
+    #     row_count = 0
+    #     for row in csv_data:
+    #         if row_count != 0:
+    #             cursor.execute(
+    #                 'INSERT IGNORE INTO videos (title, series, rating, category, episode, description, image_url, video_url, slug, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())', row)
+    #         row_count += 1
         
-        mydb.commit()
-        cursor.close()
-        mydb.close()
+    #     mydb.commit()
+    #     cursor.close()
+    #     mydb.close()
 
     def clean_text(self, text):
         text = text.replace("Nonton", "")

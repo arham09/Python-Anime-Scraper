@@ -1,15 +1,15 @@
-[INFO  - 2018-12-28T09:10:14.774Z] GhostDriver - Main - Ghost Driver Version 2.0.0
-[INFO  - 2018-12-28T09:10:14.775Z] GhostDriver - Main - running on port 127.0.0.1:48017
-[INFO  - 2018-12-28T09:10:15.555Z] Session [63a748f0-0a80-11e9-8ce2-6b5528e87898] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2018-12-28T09:10:15.555Z] Session [63a748f0-0a80-11e9-8ce2-6b5528e87898] - page.customHeaders:  - {}
-[INFO  - 2018-12-28T09:10:15.555Z] Session [63a748f0-0a80-11e9-8ce2-6b5528e87898] - page.zoomFactor:  - 1
-[INFO  - 2018-12-28T09:10:15.555Z] Session [63a748f0-0a80-11e9-8ce2-6b5528e87898] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"2.0.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"unhandledPromptBehavior":null,"proxy":{"proxyType":"direct"},"webSecurityEnabled":true}
-[INFO  - 2018-12-28T09:10:15.555Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 63a748f0-0a80-11e9-8ce2-6b5528e87898
-[ERROR - 2018-12-28T09:10:19.766Z] Session [63a748f0-0a80-11e9-8ce2-6b5528e87898] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[INFO  - 2019-01-13T00:42:56.103Z] GhostDriver - Main - Ghost Driver Version 2.0.0
+[INFO  - 2019-01-13T00:42:56.104Z] GhostDriver - Main - running on port 127.0.0.1:39215
+[INFO  - 2019-01-13T00:42:56.978Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-01-13T00:42:56.979Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - page.customHeaders:  - {}
+[INFO  - 2019-01-13T00:42:56.979Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - page.zoomFactor:  - 1
+[INFO  - 2019-01-13T00:42:56.979Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"2.0.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"unhandledPromptBehavior":null,"proxy":{"proxyType":"direct"},"webSecurityEnabled":true}
+[INFO  - 2019-01-13T00:42:56.979Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2b752df0-16cc-11e9-9bf5-edfccc141101
+[ERROR - 2019-01-13T00:43:00.185Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - page.onError - msg: ReferenceError: Can't find variable: Promise
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-12-28T09:10:19.766Z] Session [63a748f0-0a80-11e9-8ce2-6b5528e87898] - page.onError - stack:
-  c (http://animeisme.com/nonton-gaikotsu-shotenin-hondasan-sub-indo/episode-12/:1)
-  (anonymous function) (http://animeisme.com/nonton-gaikotsu-shotenin-hondasan-sub-indo/episode-12/:2)
+[ERROR - 2019-01-13T00:43:00.185Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - page.onError - stack:
+  c (https://animeisme.me/nonton-detective-conan-801-to-1000-sub-indo/episode-928:781)
+  (anonymous function) (https://animeisme.me/nonton-detective-conan-801-to-1000-sub-indo/episode-928:782)
 
   phantomjs://platform/console++.js:263 in error
