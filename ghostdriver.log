@@ -1,15 +1,15 @@
-[INFO  - 2019-01-13T00:42:56.103Z] GhostDriver - Main - Ghost Driver Version 2.0.0
-[INFO  - 2019-01-13T00:42:56.104Z] GhostDriver - Main - running on port 127.0.0.1:39215
-[INFO  - 2019-01-13T00:42:56.978Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2019-01-13T00:42:56.979Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - page.customHeaders:  - {}
-[INFO  - 2019-01-13T00:42:56.979Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - page.zoomFactor:  - 1
-[INFO  - 2019-01-13T00:42:56.979Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"2.0.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"unhandledPromptBehavior":null,"proxy":{"proxyType":"direct"},"webSecurityEnabled":true}
-[INFO  - 2019-01-13T00:42:56.979Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2b752df0-16cc-11e9-9bf5-edfccc141101
-[ERROR - 2019-01-13T00:43:00.185Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[INFO  - 2019-01-13T00:56:31.363Z] GhostDriver - Main - Ghost Driver Version 2.0.0
+[INFO  - 2019-01-13T00:56:31.365Z] GhostDriver - Main - running on port 127.0.0.1:55375
+[INFO  - 2019-01-13T00:56:32.230Z] Session [1162c330-16ce-11e9-9623-6be2cf432487] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-01-13T00:56:32.230Z] Session [1162c330-16ce-11e9-9623-6be2cf432487] - page.customHeaders:  - {}
+[INFO  - 2019-01-13T00:56:32.230Z] Session [1162c330-16ce-11e9-9623-6be2cf432487] - page.zoomFactor:  - 1
+[INFO  - 2019-01-13T00:56:32.231Z] Session [1162c330-16ce-11e9-9623-6be2cf432487] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"2.0.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"unhandledPromptBehavior":null,"proxy":{"proxyType":"direct"},"webSecurityEnabled":true}
+[INFO  - 2019-01-13T00:56:32.231Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1162c330-16ce-11e9-9623-6be2cf432487
+[ERROR - 2019-01-13T00:56:35.831Z] Session [1162c330-16ce-11e9-9623-6be2cf432487] - page.onError - msg: ReferenceError: Can't find variable: Promise
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-01-13T00:43:00.185Z] Session [2b752df0-16cc-11e9-9bf5-edfccc141101] - page.onError - stack:
-  c (https://animeisme.me/nonton-detective-conan-801-to-1000-sub-indo/episode-928:781)
-  (anonymous function) (https://animeisme.me/nonton-detective-conan-801-to-1000-sub-indo/episode-928:782)
+[ERROR - 2019-01-13T00:56:35.831Z] Session [1162c330-16ce-11e9-9623-6be2cf432487] - page.onError - stack:
+  c (https://animeisme.me/nonton-hinomaruzumou-sub-indo/episode-13:724)
+  (anonymous function) (https://animeisme.me/nonton-hinomaruzumou-sub-indo/episode-13:725)
 
   phantomjs://platform/console++.js:263 in error

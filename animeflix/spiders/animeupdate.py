@@ -36,8 +36,8 @@ class AnimeupdateSpider(Spider):
 
         self.driver = webdriver.PhantomJS('/home/arham/node_modules/ghostdriver/bin/ghostdriver')
         self.driver.get(response.url)
-        iframe = self.driver.find_element_by_id("mvframe")
-        
+
+        iframe = self.driver.find_element_by_id("mvframe") 
         self.driver.switch_to.frame(iframe)
 
         sel = Selector(text=self.driver.page_source)
